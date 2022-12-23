@@ -2,13 +2,26 @@
 
 namespace SimpleProject
 {
-    class Program
+    public class Program
     {
-        static public int MultiplyTwoNumbers(int a, int b)
+        public static int MultiplyTwoNumbers(int a, int b)
         {
             int res = a * b;
             return res;    
         }
+        
+        public static int SumTwoNumbers(int a,int b)
+        {
+            int res = a + b;
+            return res;
+        }
+
+        public static int SubtractTwoNumbers(int a, int b)
+        {
+            int res = a - b;
+            return res;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello EPTA!");
